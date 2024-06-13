@@ -29,3 +29,9 @@ Coming soon...
 ## Chatter LLama Index (chatter-llama-index.py)
 
 Coming soon...
+
+## References
+
+- [LangChain - Q&A with RAG](https://python.langchain.com/v0.1/docs/use_cases/question_answering/)
+- [LangChain - Q&A over SQL + CSV](https://python.langchain.com/v0.1/docs/use_cases/sql/)
+- [LlamaIndex - RAG Applications for Production](https://docs.llamaindex.ai/en/stable/optimizing/production_rag/)
