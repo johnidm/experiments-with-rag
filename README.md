@@ -22,7 +22,10 @@ The documents need to be in PDF format.
 - Execute the script running the command `python chatter.py`.
 - Make questions about the document's context.
 
-## ChatterSQL (chatter_sql.py)
+## ChatterSQL (chatter-sql.py)
 
 Coming soon...
 
+## Chatter LLama Index (chatter-llama-index.py)
+
+Coming soon...
