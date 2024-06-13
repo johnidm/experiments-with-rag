@@ -1,4 +1,4 @@
-# Experimentas with RAG
+# Experiments with RAG
 
 This repository contains a collection of small projects designed to explore the application of RAG (Retrieval-Augmented Generation) in real-world scenarios. 
 
