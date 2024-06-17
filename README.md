@@ -44,7 +44,11 @@ Run the command `python chatter-sql.py` to start the application.
 
 ## Chatter LLama Index (chatter-llama-index.py)
 
-Coming soon...
+A simples question and anwser application using LlamaIndex framework.
+
+This application works the same way as `chatter.py`, but using a different framework keeping the chat history.
+
+Run the command `python chatter-llama-index.py` to start the application.
 
 ## References
 
