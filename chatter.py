@@ -2,21 +2,20 @@ import os
 
 
 from langchain_experimental.text_splitter import SemanticChunker
-from langchain_openai.embeddings import OpenAIEmbeddings
+
 from langchain_community.llms.ollama import Ollama
 from langchain_community.embeddings.ollama import OllamaEmbeddings
 
 from langchain_community.document_loaders import PyPDFDirectoryLoader
-from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_community.vectorstores import Chroma
 from langchain_openai import OpenAIEmbeddings, ChatOpenAI
 from langchain_core.output_parsers import StrOutputParser
 from langchain_core.runnables import RunnablePassthrough
-from langchain.prompts import PromptTemplate
+from langchain_core.prompts import PromptTemplate
+from langchain_text_splitters import RecursiveCharacterTextSplitter
 
 
-open_ai_key = "sk-"
-os.environ["OPENAI_API_KEY"] = open_ai_key
+os.environ["OPENAI_API_KEY"] = "sk-"
 
 
 SPLITTER = "character"
@@ -29,6 +28,10 @@ def load_documents():
 
     loader = PyPDFDirectoryLoader(directory_path)
     documents = loader.load()
+
+    for index, document in enumerate(documents):
+        document.metadata["page_number"] = index + 212
+
     return documents
 
 

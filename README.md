@@ -22,9 +22,25 @@ The documents need to be in PDF format.
 - Execute the script running the command `python chatter.py`.
 - Make questions about the document's context.
 
+Run the command `python chatter.py` to start the application.
+
+## ChatterQA (chatter-qa.py)
+
+Using QA LangChain module. 
+
+Works the same way as `chatter.py`, but using a different module.
+
+Run the command `python chatter-qa.py` to start the application.
+
 ## ChatterSQL (chatter-sql.py)
 
-Coming soon...
+This is a example of how to use RAG to answer questions in a SQL database.
+
+There are tow database in the `db` folder:
+- `chinook.db`: A SQLite database about music store.
+- `movies.db`: A SQLite database about movies store.
+
+Run the command `python chatter-sql.py` to start the application.
 
 ## Chatter LLama Index (chatter-llama-index.py)
 
