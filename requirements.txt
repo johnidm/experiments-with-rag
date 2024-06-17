@@ -4,3 +4,7 @@ langchain-openai
 langchain_core
 langchain_experimental
 pypdf
+
+llama-index
+openai
+pydantic==1.10.9 # buf llm-index requires pydantic==1.10.9
