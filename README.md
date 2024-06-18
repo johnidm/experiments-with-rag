@@ -32,7 +32,7 @@ Works the same way as `chatter.py`, but using a different module.
 
 Run the command `python chatter-qa.py` to start the application.
 
-## ChatterSQL (chatter-sql.py)
+## ChatterSQL (chatter-sql.py, chatter-sql-ex.py, chatter-sql-ex-1.py, chatter-llama-index-sql.py)
 
 This is a example of how to use RAG to answer questions in a SQL database.
 
